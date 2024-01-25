@@ -25,7 +25,7 @@ abstract class Archetype {
 
   abstract get energyType(): EnergyType;
 
-  static createdRacesInstances() {
+  static createdArchetypeInstances() {
     throw new Error('Not implemented');
   }
 }
