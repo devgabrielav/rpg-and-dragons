@@ -120,4 +120,9 @@ export default class Character implements Fighter {
 
     this.lifePoints = this.maxLifePoints;
   }
+
+  special(enemy: Fighter): void {
+    const attack = this.strength + 10;
+    enemy.receiveDamage(attack);
+  }
 }
